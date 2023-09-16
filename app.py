@@ -59,8 +59,7 @@ import pandas as pd
 import xgboost
 from xgboost import XGBRegressor
 from flask_cors import CORS, cross_origin
-# Load the Ridge Regression Classifier model
-# change the model type to see lil changes in prediction
+
 # filename = 'odi_score_predict_model_xgb_2.1_more_venues.pkl'
 filename = 'pipe_xgb.pkl'
 # filename = 'pipe_randomforest.pkl'
